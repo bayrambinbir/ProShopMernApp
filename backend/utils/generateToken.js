@@ -1,5 +1,3 @@
-import asyncHandler from "../middleware/asyncHandler.js";
-import User from "../models/userModel.js";
 import jwt from "jsonwebtoken";
 
 const generateToken = (res, userId) => {
