@@ -62,6 +62,7 @@ const OrderScreen = () => {
     }
   }, [errorPayPal, loadingPayPal, order, paypal, paypalDispatch]);
 
+
    function onApprove(data, actions) {
      return actions.order.capture().then(async function (details) {
        try {
